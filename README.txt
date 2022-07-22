@@ -1,4 +1,4 @@
-Submitters: Ori Braverman - 318917010
-	    Shachar Levy - 318974557
+Submitters: Ori Braverman
+	    Shachar Levy
 
 This is the third part of the Pacman Game develpoment.
