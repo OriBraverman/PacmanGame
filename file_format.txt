@@ -1,0 +1,39 @@
+Files Format:
+
+#Steps File#
+This file will be saved in the following format of file name: pacman_*.steps 
+while the * represent the board which the steps file is related to (for example "pacman_A.steps").
+Each line of the steps file will contain the point in time (one iteration of the game).
+after the point in time, will be presented pairs (number that represent the the creature 
+and number that represent the direction), each number either the creature number or the 
+direction number is mapped by a enum located in the PacmanGame.h file and the enum.h file.
+In case of fruit, there are 3 possible changes:direction, appearence (after a while of 
+diapearence) and disappearence.
+therefor we defined that the fruit will be seperated to 3 options for each type of change.
+in case of of direction change the fruit will get a number that represent the new direction,
+in case of disappearence there is no additional pararmeter, and in case of appearence
+we will save the new position which was randomly chosen, the char which was radomly chosen from 5-9 and than the direction.
+
+
+The releant enum:
+enum STEPS_CHANGES {PACMAN, GHOST0, GHOST1, GHOST2, GHOST3, FRUIT, FRUIT_APPEAR, FRUIT_DISAPPEAR, STEPS_SIZE};
+
+example of a line in the  steps file:
+38 3 0 4 0 
+the line represent that in point in time 38 the ghost[2] changed direction left and  the ghost[3] changed direction left.
+
+#Result File#
+This file will be saved in the following format of file name: pacman_*.result 
+while the * represent the board which the result file is related to (for example "pacman_A.result").
+Each line of the result file contains the point in time , 0 if the pacman died in that point of the game
+and 1 if the player finished the board.
+
+the numbers are mapped in a enum located in the PacmanGame.h
+
+related enum:
+enum RESULT_CHANGES {PACMAN_DIED, FINISHED_SCREEN, RESULT_SIZE};
+
+
+example of a line in the  result file:
+192 0 
+here in point in time 192 the pacman died.
