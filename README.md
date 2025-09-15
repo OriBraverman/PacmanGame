@@ -2,6 +2,27 @@
 
 A comprehensive C++ implementation of the classic Pacman game with advanced AI strategies, save/load functionality, and multi-level support.
 
+## About
+
+This project is a modern C++ implementation of the classic Pacman arcade game, developed as an educational project to demonstrate advanced programming concepts including artificial intelligence, design patterns, and game development. The game features sophisticated AI-driven ghost behavior, comprehensive save/load functionality, and a robust architecture built using object-oriented design principles.
+
+**What makes this implementation unique:**
+- **Advanced AI Strategies**: Three different difficulty levels using algorithms ranging from simple rule-based behavior to sophisticated breadth-first search pathfinding
+- **Complete Game Recording System**: Full gameplay recording and replay capabilities for analysis and debugging
+- **Educational Focus**: Clean, well-documented code demonstrating design patterns like Strategy, Inheritance, and State patterns
+- **Cross-platform Console Design**: Built for Windows console applications with optional color support
+
+**Target Audience:**
+- Computer science students learning game development and AI concepts
+- Developers interested in C++ game programming techniques
+- Anyone wanting to study practical implementations of classic algorithms
+
+**Technologies Used:**
+- C++ with object-oriented design
+- Windows Console API for graphics and input
+- Breadth-First Search algorithm for AI pathfinding
+- File I/O for game state persistence
+
 ## Project Overview
 
 This is a console-based Pacman game developed in C++ that features multiple game boards, intelligent ghost AI with different difficulty levels, and a complete game recording/playback system. The game supports both interactive play and automated replay of saved games.
