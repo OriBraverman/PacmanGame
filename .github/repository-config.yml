@@ -1,0 +1,42 @@
+# Repository Configuration
+# This file contains suggested settings for the GitHub repository
+
+name: "PacmanGame"
+description: "C++ Pacman game with advanced AI strategies, save/load functionality, and multi-level support. Features intelligent ghost behavior using BFS algorithms, complete gameplay recording system, and console-based interface."
+topics:
+  - pacman
+  - game
+  - cpp
+  - artificial-intelligence
+  - bfs-algorithm
+  - console-game
+  - strategy-pattern
+  - object-oriented
+  - breadth-first-search
+  - game-recording
+  - save-load
+  - multi-level
+  - windows
+  - visual-studio
+
+homepage: ""
+has_issues: true
+has_projects: true
+has_wiki: true
+has_pages: false
+has_downloads: true
+
+# License
+license: "Academic/Educational Use"
+
+# Default branch
+default_branch: "main"
+
+# Repository features
+features:
+  - "Advanced AI with BFS pathfinding"
+  - "Complete save/load system"
+  - "Multi-level support"
+  - "Object-oriented C++ design"
+  - "Console-based gameplay"
+  - "Strategy pattern implementation"

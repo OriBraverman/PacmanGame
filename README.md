@@ -1,5 +1,7 @@
 # Pacman Game
 
+> **C++ Pacman game with advanced AI strategies, save/load functionality, and multi-level support. Features intelligent ghost behavior using BFS algorithms, complete gameplay recording system, and console-based interface.**
+
 A comprehensive C++ implementation of the classic Pacman game with advanced AI strategies, save/load functionality, and multi-level support.
 
 ## Project Overview
