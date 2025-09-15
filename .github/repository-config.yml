@@ -27,7 +27,7 @@ has_pages: false
 has_downloads: true
 
 # License
-license: "Academic/Educational Use"
+license: "Academic/Educational Use - See README for details"
 
 # Default branch
 default_branch: "main"
